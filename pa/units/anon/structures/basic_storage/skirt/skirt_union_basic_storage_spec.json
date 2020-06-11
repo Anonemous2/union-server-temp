@@ -1,0 +1,5 @@
+{
+    "diffuse": "/pa/units/anon/structures/basic_storage/skirt/skirt_basic_storage_diffuse.papa",
+    "normal": "/pa/units/anon/structures/basic_storage/skirt/skirt_basic_storage_normal.papa",
+    "material": "/pa/effects/textures/skirts/skirt_01_material.papa"
+}

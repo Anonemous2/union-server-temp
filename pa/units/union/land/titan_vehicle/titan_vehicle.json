@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_name": "Ares",
+    "display_name": "NonAres",
     "description": "!LOC:Rolling Fortress - Near invincible. Long range. Heavy damage. Hover. Attacks land and sea targets.",
     "max_health": 20000,
     "build_metal_cost": 30000,
@@ -48,9 +48,9 @@
         "type": "hover-large",
         "acceleration": 100,
         "brake": 0.01,
-        "move_speed": 10,
-        "turn_speed": 30,
-        "turn_accel": 15,
+        "move_speed": 1000,
+        "turn_speed": 100,
+        "turn_accel": 5,
         "park_stamp": {
             "shape": "sphere",
             "cost": 10,

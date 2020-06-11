@@ -44,9 +44,12 @@
             "layer": "WL_LandHorizontal",
             "filename": "/pa/units/anon/structures/adv_reactor/adv_reactor.papa",
             "animations": {
-                "idle": "/pa/units/anon/structures/adv_reactor/adv_reactor_idle.papa"
+                "closed": "/pa/units/anon/structures/adv_reactor/adv_reactor_closed.papa",
+                "deploy": "/pa/units/anon/structures/adv_reactor/adv_reactor_deploy.papa",
+                "open": "/pa/units/anon/structures/adv_reactor/adv_reactor_idle.papa"
             },
-            "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json"
+            "animtree": "/pa/units/anon/structures/adv_reactor/deployed_constant_idle_anim_tree.json",
+            "skirt_decal": "/pa/units/anon/structures/adv_reactor/skirt/skirt_union_adv_reactor.json"
         }
     ],
     "events": {
@@ -66,7 +69,134 @@
     },
     "fx_offsets": [],
     "headlights": [],
-    "lamps": [],
+    "lamps": [
+        {
+            "offset": [
+                0.0,
+                -10.7,
+                2.9
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                9.267,
+                5.35,
+                2.9
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                -9.267,
+                5.35,
+                2.9
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                -0,
+                8.4,
+                11.6
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                -7.27,
+                -4.2,
+                11.6
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                7.27,
+                -4.2,
+                11.6
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                -0,
+                4.92,
+                29.18
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                -4.26,
+                -2.46,
+                29.18
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        },
+        {
+            "offset": [
+                4.26,
+                -2.46,
+                29.18
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0
+        }
+    ],
     "selection_icon": {
         "diameter": 34.0
     },

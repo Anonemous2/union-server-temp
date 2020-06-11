@@ -78,7 +78,7 @@
     "model": {
         "filename": "/pa/units/anon/orbital/orbital_fabber/orbital_fabber.papa",
         "animations": {
-            "open": "/pa/units/anon/orbital/orbital_fabber/orbital_fabber_anim_fab.papa",
+            "open": "/pa/units/anon/orbital/orbital_fabber/orbital_fabber.papa",
             "deploy": "/pa/units/anon/orbital/orbital_fabber/orbital_fabber_anim_deploy.papa",
             "closed": "/pa/units/anon/orbital/orbital_fabber/orbital_fabber_anim_closed.papa"
         },

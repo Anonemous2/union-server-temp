@@ -1,0 +1,22 @@
+{
+    "base_spec": "/pa/effects/specs/dynamic_decal_base.json",
+    "layer": 0,
+    "bias": 200,
+    "simplex_range": [
+        0.0,
+        1.0
+    ],
+    "pos_range": [
+        0,
+        0
+    ],
+    "scale": [
+        27.5,
+        27.5,
+        1
+    ],
+    "scale_range": 0,
+    "count": 1,
+    "fixed_orient": true,
+    "material_spec": "/pa/units/anon/structures/adv_reactor/skirt/skirt_union_adv_reactor_spec.json"
+}

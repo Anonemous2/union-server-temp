@@ -216,7 +216,6 @@
         "/pa/units/PAEIOU/crawler/t2/foxhound/foxhound.json",
         "/pa/units/PAEIOU/crawler/t2/gale/gale.json",
         "/pa/units/PAEIOU/crawler/t2/redeemer/redeemer.json",
-        "/pa/units/PAEIOU/crawler/t2/tank_laser_adv/tank_laser_adv.json",
         "/pa/units/anon/crawlers/silverback/silverback.json",
 
         "/pa/units/anon/heavy_crawlers/ogre/ogre.json",
@@ -226,6 +225,8 @@
         "/pa/units/PAEIOU/mobile_defense/t2/monarch/monarch.json",
 
         "/pa/units/anon/orbital/orbital_pp/orbital_pp.json",
+        "/pa/units/anon/orbital/orbital_fabber/orbital_fabber.json",
+        "/pa/units/anon/orbital/defense_platform/defense_platform.json",
 
         "/pa/units/PAEIOU/structure/t1/power_plant/power_plant.json",
         "/pa/units/PAEIOU/structure/t1/crawler_factory/crawler_factory.json",
@@ -261,7 +262,13 @@
         "/pa/units/union/orbital_fighter/orbital_fighter.json",
         "/pa/units/anon/heavy_crawlers/chimera/chimera.json",
 
-        "/pa/units/anon/structures/pylon/pylon.json"
+        "/pa/units/anon/structures/pylon/pylon.json",
+
+        "/pa/units/union/land/control_module/control_module.json",
+        "/pa/units/union/land/delta_v_engine/delta_v_engine.json",
+        "/pa/units/union/land/mining_platform/mining_platform.json",
+        "/pa/units/union/land/radar_satellite/radar_satellite.json",
+        "/pa/units/union/land/titan_structure/titan_structure.json"
 
     ]
 }

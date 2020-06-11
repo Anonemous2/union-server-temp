@@ -36,6 +36,7 @@ var paeiouIcons = [
     "u_buzzbot",
     "u_orbital_defense",
     "u_demititan_laser",
-    "pylon_storage"
+    "pylon_storage",
+    "u_radar_station"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

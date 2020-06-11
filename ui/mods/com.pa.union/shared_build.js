@@ -55,8 +55,18 @@ var newBuild = {
     "/pa/units/anon/air/transport/horseshoe.json": ["flyer", 0, { row: 2, column: 6, titans: true }],
     "/pa/units/anon/air/scout/dragonfly.json": ["flyer", 0, { row: 2, column: 5, titans: true }],
 
-    "/pa/units/union/orbital_fighter/orbital_fighter.json": ["spacer", 0, { row: 2, column: 0, titans: true }],
-    "/pa/units/anon/orbital/orbital_pp/orbital_pp.json": ["spacer", 0, { row: 2, column: 3, titans: true }]
+    "/pa/units/union/orbital_fighter/orbital_fighter.json": ["spacer", 0, { row: 2, column: 1, titans: true }],
+    "/pa/units/anon/orbital/orbital_fabber/orbital_fabber.json": ["spacer", 0, { row: 2, column: 0, titans: true }],
+    "/pa/units/anon/orbital/orbital_pp/orbital_pp.json": ["spacer", 0, { row: 2, column: 3, titans: true }],
+
+    "/pa/units/anon/orbital/defense_platform/defense_platform.json": ["spacerstructure", 0, { row: 2, column: 1, titans: true }],
+
+    
+    "/pa/units/union/land/control_module/control_module.json": ["unionutil", 0, { row: 0, column: 0, titans: true }],
+    "/pa/units/union/land/delta_v_engine/delta_v_engine.json": ["unionutil", 0, { row: 0, column: 1, titans: true }],
+    "/pa/units/union/land/mining_platform/mining_platform.json": ["spacerstructure", 0, { row: 1, column: 1, titans: true }],
+    "/pa/units/union/land/radar_satellite/radar_satellite.json": ["spacer", 0, { row: 2, column: 4, titans: true }],
+    "/pa/units/union/land/titan_structure/titan_structure.json": ["unionutil", 0, { row: 0, column: 2, titans: true }]
 
 }
 if (Build && Build.HotkeyModel && Build.HotkeyModel.SpecIdToGridMap) {

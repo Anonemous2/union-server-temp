@@ -1,6 +1,6 @@
 {
     "display_name": "!LOC:Lamp",
-    "description": "!LOC:Lamp. Attracts moth.",
+    "description": "!LOC:Lamp. Attracts moths.",
     "TEMP_texelinfo": 1.0,
     "armor_type": "AT_Structure",
     "audio": {
@@ -128,7 +128,7 @@
     "tools": [
         {
             "muzzle_bone": "bone_root",
-            "spec_id": "/pa/units/anon/crawlers/torch/flare_sd_Weapon.json",
+            "spec_id": "/pa/units/anon/crawlers/torch/flare_sd_weapon.json",
             "aim_bone": "bone_root"
         }
     ]
